@@ -1,6 +1,29 @@
+body {
+    font-size: 16px;
+}
+.card-panel {
+    padding: 20px;
+}
 .row {
     margin-bottom: 0;
 }
 .input-field {
-    margin-bottom: 0;
+    margin: 0px;
+    /* margin-bottom: 0; */
+}
+#name,
+#email,
+#phone,
+#street,
+#suite,
+#city,
+#company {
+    height: 2rem;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+.btn {
+    padding: 0;
+    height: 30px;
+    line-height: 20px;
 }
