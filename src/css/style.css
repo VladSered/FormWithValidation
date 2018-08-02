@@ -5,11 +5,14 @@ body {
     padding: 20px;
 }
 .row {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .input-field {
     margin: 0px;
     /* margin-bottom: 0; */
+}
+.input-field .helper-text {
+    font-size: 10px;
 }
 #name,
 #email,
